@@ -1,22 +1,32 @@
 {
-  "name": "server",
+  "name": "csci3916_finaldashboard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstone-ucd/CSCI3916_FinalDashboard.git"
+  },
+  "author": "Samantha Stone",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstone-ucd/CSCI3916_FinalDashboard/issues"
+  },
+  "homepage": "https://github.com/sstone-ucd/CSCI3916_FinalDashboard#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "helmet": "^6.0.1",
-    "mongoose": "^7.0.2",
+    "helmet": "^6.1.5",
+    "mongoose": "^7.0.5",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.21"
+    "nodemon": "^2.0.22"
   }
 }
