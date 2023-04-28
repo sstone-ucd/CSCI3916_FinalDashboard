@@ -29,7 +29,7 @@ import ProductStat from './models/ProductStat.js';
 //CONFIG - create the app using express framework and allow it to use imported modules
 dotenv.config(); 
 const app = express(); 
-app.use(express.json); 
+//app.use(express.json); 
 app.use(helmet()); 
 app.use(helmet.crossOriginResourcePolicy({policy: "cross-origin"}));
 app.use(morgan("common")); 
