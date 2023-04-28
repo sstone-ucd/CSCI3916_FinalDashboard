@@ -50,6 +50,7 @@ app.use("/sales", salesRoutes);
 
 //MONGOOSE CONNNECTION
 const PORT = process.env.PORT || 9000;
+
 mongoose
     .connect(process.env.DB, {
         useNewUrlParser: true, 
@@ -61,4 +62,8 @@ mongoose
         //User.insertMany(dataUser);
         //Product.insertMany(dataProduct); 
         //ProductStat.insertMany(dataProductStat); 
+        //AffiliateStat.insertMany(dataAffiliateStat);
+        //OverallStat.insertMany(dataOverallStat);
+        //Transaction.insertMany(dataTransaction);
+
     }).catch((error) => console.log(`${error} could not connect`))

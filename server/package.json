@@ -1,7 +1,6 @@
 {
   "name": "csci3916_finaldashboard",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -24,9 +23,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "helmet": "^6.1.5",
-    "mongoose": "^7.0.5",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.7.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

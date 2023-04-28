@@ -15,8 +15,7 @@ import{
 //import all of the icons 
 import{
     SettingsOutlined, 
-    ChevronLeft, 
-    ChevronRight, 
+    ChevronLeft,  
     HomeOutlined, 
     ShoppingCartOutlined, 
     Groups2Outlined, 

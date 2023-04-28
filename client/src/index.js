@@ -14,7 +14,7 @@ import { api } from "state/api";
 const store = configureStore({
   reducer: {
     global: globalReducer, 
-    [api.reducerPath]: api.reducer
+    [api.reducerPath]: api.reducer,
   },
   middleware: (getDefault) => getDefault().concat(api.middleware)
 });

@@ -15,6 +15,7 @@ const Layout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true); 
     //Grab user Id using the api.js call 
     const userId = useSelector((state) => state.global.userId);
+    console.log("user", userId); 
     const { data } = useGetUserQuery(userId);
     console.log("data", data); 
 
