@@ -18,12 +18,16 @@ import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
+//import patientRoutes from "./routes/patients.js"; 
 
 //import data from data folder
 import User from "./models/User.js"
-import {dataUser, dataProduct, dataProductStat} from "./data/index.js"
+import {dataUser, dataProduct, dataProductStat, dataLocations, dataResults, dataPatients} from "./data/index.js"
 import Product from './models/Product.js';
 import ProductStat from './models/ProductStat.js';
+import Patient from './models/Patients.js';
+import Results from './models/Results.js';
+import Location from './models/Location.js';
 
 
 //CONFIG - create the app using express framework and allow it to use imported modules
@@ -48,6 +52,7 @@ app.use("/management", managementRoutes);
 //routes for sales tracking (cup volume, etc)
 app.use("/sales", salesRoutes); 
 
+
 //MONGOOSE CONNNECTION
 const PORT = process.env.PORT || 9000;
 
@@ -65,5 +70,8 @@ mongoose
         //AffiliateStat.insertMany(dataAffiliateStat);
         //OverallStat.insertMany(dataOverallStat);
         //Transaction.insertMany(dataTransaction);
+        //Location.insertMany(dataLocations); 
+       //Results.insertMany(dataResults); 
+        //Patient.insertMany(dataPatients); 
 
     }).catch((error) => console.log(`${error} could not connect`))

@@ -15,6 +15,7 @@ export const api = createApi({
     "Admins",
     "Performance",
     "Dashboard",
+    "Patients"
   ],
   endpoints: (build) => ({
     getUser: build.query({
@@ -57,6 +58,10 @@ export const api = createApi({
       query: () => "general/dashboard",
       providesTags: ["Dashboard"],
     }),
+    getPatients: build.query({
+      query: () => "patients/patients",
+      providesTags: ["Patients"],
+    }),
   }),
 });
 //create hooks for all of the queries to use in other files
@@ -70,4 +75,5 @@ export const {
   useGetAdminsQuery,
   useGetUserPerformanceQuery,
   useGetDashboardQuery,
+  useGetPatientsQuery,
 } = api;

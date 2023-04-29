@@ -1804,9 +1804,9 @@ export const dataAffiliateStat = [
         "63701d74f03239d81e00001b",
       ],
     },
-  ];
+];
   
-  export const dataOverallStat = [
+export const dataOverallStat = [
     {
       totalCustomers: 5251,
       yearlySalesTotal: 65152,
@@ -2264,9 +2264,9 @@ export const dataAffiliateStat = [
       updatedAt: "2019-07-06T05:12:27.736Z",
       __v: 36729,
     },
-  ];
+];
   
-  export const dataProduct = [
+export const dataProduct = [
     {
       _id: "63701d24f03239c72c00018e",
       name: "Port Beckley",
@@ -2537,9 +2537,9 @@ export const dataAffiliateStat = [
       rating: 1.43,
       supply: 157,
     },
-  ];
+];
   
-  export const dataProductStat = [
+export const dataProductStat = [
     {
       _id: "6371259df03239e680000035",
       productId: "63701d24f03239c72c00018e",
@@ -12800,9 +12800,9 @@ export const dataAffiliateStat = [
         { date: "2021-11-17", totalSales: 36, totalUnits: 22 },
       ],
     },
-  ];
+];
   
-  export const dataTransaction = [
+export const dataTransaction = [
     {
       _id: "63701d74f03239c72c000192",
       userId: "63701cc1f032390a34000319",
@@ -17304,9 +17304,9 @@ export const dataAffiliateStat = [
         "63701d24f03239cdc5000015",
       ],
     },
-  ];
+];
   
-  export const dataUser = [
+export const dataUser = [
     {
       _id: "63701cc1f03239c72c00017f",
       name: "Konstantine",
@@ -22975,4 +22975,824 @@ export const dataAffiliateStat = [
       transactions: ["63701d74f032399c0000014f", "63701d74f03239b7f700003f"],
       role: "admin",
     },
-  ];
+];
+
+export const dataLocations = [
+  {
+    locationID: "1",
+    locationName: "Location1",
+  },
+  {
+    locationID: "2",
+    locationName: "Location2",
+  },
+  {
+    locationID: "3",
+    locationName: "Location3",
+  },
+  {
+    locationID: "4",
+    locationName: "Location4",
+  },
+  {
+    locationID: "5",
+    locationName: "Location5",
+  },
+];
+
+export const dataPatients = [
+  {
+    name: "Test Patient1",
+    pid: 1,
+    orders: [
+        {accession:352910},
+        {accession:355930},
+        {accession:357522},
+        {accession:359750},
+        {accession:353836},
+        {accession:356434},
+        {accession:358743},
+    ]
+  },
+  {
+    name: "Test Patient2",
+    pid: 2,
+    orders: [
+      {accession:360462},
+      {accession:352626},
+      {accession:354689},
+      {accession:357021},
+      {accession:353245},
+      {accession:353702},
+      {accession:354433},
+    ]
+  },
+  {
+    name: "Test Patient3",
+    pid: 3,
+    orders: [
+      {accession:355276},
+      {accession:356345},
+      {accession:357155},
+    ]
+  },
+  {
+    name: "Test Patient4",
+    pid: 4,
+    orders: [
+      {accession:359638},
+      {accession:359887},
+      {accession:360782},
+      {accession:353111},
+      {accession:356216},
+    ]
+  },
+  {
+    name: "Test Patient5",
+    pid: 5,
+    orders: [
+      {accession:358377},
+      {accession:360493},
+    ]
+  },
+  {
+    name: "Test Patient6",
+    pid: 6,
+    orders: [
+      {accession:357266},
+      {accession:360302},
+      {accession:353598},
+      {accession:356241},
+    ]
+  },
+];
+export const dataResults = [
+  {
+    pid: 1,
+    accession: 352910,
+    DOS: "12/02/2022",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 355930,
+    DOS: "01/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 357522,
+    DOS: "02/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 359750,
+    DOS: "03/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 353836,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 356434,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 1,
+    accession: 358743,
+    DOS: "06/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 360462,
+    DOS: "11/02/2022",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 352626,
+    DOS: "12/02/2022",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 354689,
+    DOS: "01/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 357021,
+    DOS: "02/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 353245,
+    DOS: "03/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 353702,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 2,
+    accession: 354433,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 3,
+    accession: 355276,
+    DOS: "03/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 3,
+    accession: 356345,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 3,
+    accession: 357155,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 4,
+    accession: 359638,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 4,
+    accession: 359887,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 4,
+    accession: 360782,
+    DOS: "03/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 4,
+    accession: 353111,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 4,
+    accession: 356216,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 5,
+    accession: 358377,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 5,
+    accession: 360493,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 6,
+    accession: "357266",
+    DOS: "01/02/2023",
+    locationID:1,
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 6,
+    accession: 360302,
+    DOS: "02/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 6,
+    accession: 353598,
+    DOS: "04/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+  {
+    pid: 6,
+    accession: 356241,
+    DOS: "05/02/2023",
+    locationID:"1",
+    incPos: [
+        {
+            testName: "Fentanyl",
+            result: 90,
+        },
+    ],
+    incNeg: [
+    ],
+    illicitPos: [
+      {
+        testName: "Methamphetamine",
+        result: 600,
+      },
+    ],
+    consPos: [
+        {
+            testName: "Hydrocodone",
+            result: 67,
+        },
+    ],
+  },
+];
