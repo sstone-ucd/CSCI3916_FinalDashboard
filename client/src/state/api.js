@@ -17,6 +17,7 @@ export const api = createApi({
     "Dashboard",
     "Patients"
   ],
+  //create end points to use each function as a hook
   endpoints: (build) => ({
     getUser: build.query({
       query: (id) => `general/user/${id}`,
@@ -30,6 +31,7 @@ export const api = createApi({
       query: () => "client/customers",
       providesTags: ["Customers"],
     }),
+    //transactions, has serveral items to pass through, get page, pagesize, sort, and search through parameters
     getTransactions: build.query({
       query: ({ page, pageSize, sort, search }) => ({
         url: "client/transactions",

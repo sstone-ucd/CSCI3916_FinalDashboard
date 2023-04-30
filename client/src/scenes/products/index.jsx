@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import Header from "components/Header";
 import { useGetProductsQuery } from "state/api";
-
+//declare the variables in the products model
 const Product = ({
   _id,
   name,
@@ -26,7 +26,7 @@ const Product = ({
 }) => {
   const theme = useTheme();
   const [isExpanded, setIsExpanded] = useState(false);
-
+  //format the page into cards
   return (
     <Card
       sx={{
@@ -49,11 +49,13 @@ const Product = ({
         <Typography sx={{ mb: "1.5rem" }} color={theme.palette.secondary[400]}>
           ${Number(price).toFixed(2)}
         </Typography>
+        {/* use material UI rating to populate rating into stars */}
         <Rating value={rating} readOnly />
 
         <Typography variant="body2">{description}</Typography>
       </CardContent>
       <CardActions>
+        {/* Create a butting to expand the card to see more details */}
         <Button
           variant="primary"
           size="small"
@@ -89,6 +91,7 @@ const Products = () => {
   const { data, isLoading } = useGetProductsQuery();
   const isNonMobile = useMediaQuery("(min-width: 1000px)");
 
+  //map the data saved in the state to each variable rendered on the page
   return (
     <Box m="1.5rem 2.5rem">
       <Header title="PRODUCTS" subtitle="See your list of products." />

@@ -22,12 +22,15 @@ import salesRoutes from "./routes/sales.js";
 
 //import data from data folder
 import User from "./models/User.js"
-import {dataUser, dataProduct, dataProductStat, dataLocations, dataResults, dataPatients} from "./data/index.js"
+import {dataUser, dataProduct, dataProductStat, dataLocations, dataResults, dataPatients, dataOverallStat, dataTransaction, dataAffiliateStat} from "./data/index.js"
 import Product from './models/Product.js';
 import ProductStat from './models/ProductStat.js';
 import Patient from './models/Patients.js';
 import Results from './models/Results.js';
 import Location from './models/Location.js';
+import Transaction from './models/Transaction.js';
+import OverallStat from './models/OverallStat.js';
+import AffiliateStat from './models/AffiliateStat.js';
 
 
 //CONFIG - create the app using express framework and allow it to use imported modules
